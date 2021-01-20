@@ -10,7 +10,7 @@ def main(highest_score):
 
     pygame.init()
     screen = pygame.display.set_mode(core.SCREENSIZE)
-    pygame.display.set_caption('Game Animation')
+    pygame.display.set_caption('By Rizwan.AR')
 
     sounds = {}
     for key, value in core.AUDIO_PATHS.items():
